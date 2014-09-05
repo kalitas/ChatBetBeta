@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34FFED2119B9F60200AF5CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2019B9F60200AF5CD9 /* Foundation.framework */; };
+		34FFED2319B9F60300AF5CD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2219B9F60300AF5CD9 /* CoreGraphics.framework */; };
+		34FFED2519B9F60300AF5CD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2419B9F60300AF5CD9 /* UIKit.framework */; };
+		34FFED2B19B9F60300AF5CD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED2919B9F60300AF5CD9 /* InfoPlist.strings */; };
+		34FFED2D19B9F60300AF5CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFED2C19B9F60300AF5CD9 /* main.m */; };
+		34FFED3119B9F60300AF5CD9 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFED3019B9F60300AF5CD9 /* CBAppDelegate.m */; };
+		34FFED3419B9F60300AF5CD9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED3219B9F60300AF5CD9 /* Main_iPhone.storyboard */; };
+		34FFED3719B9F60300AF5CD9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED3519B9F60300AF5CD9 /* Main_iPad.storyboard */; };
+		34FFED3A19B9F60300AF5CD9 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFED3919B9F60300AF5CD9 /* CBViewController.m */; };
+		34FFED3C19B9F60300AF5CD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED3B19B9F60300AF5CD9 /* Images.xcassets */; };
+		34FFED4319B9F60300AF5CD9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED4219B9F60300AF5CD9 /* XCTest.framework */; };
+		34FFED4419B9F60300AF5CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2019B9F60200AF5CD9 /* Foundation.framework */; };
+		34FFED4519B9F60300AF5CD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2419B9F60300AF5CD9 /* UIKit.framework */; };
+		34FFED4D19B9F60300AF5CD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED4B19B9F60300AF5CD9 /* InfoPlist.strings */; };
+		34FFED4F19B9F60300AF5CD9 /* chatBetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFED4E19B9F60300AF5CD9 /* chatBetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34FFED4619B9F60300AF5CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FFED1519B9F60200AF5CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FFED1C19B9F60200AF5CD9;
+			remoteInfo = chatBet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34FFED1D19B9F60200AF5CD9 /* chatBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FFED2019B9F60200AF5CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34FFED2219B9F60300AF5CD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34FFED2419B9F60300AF5CD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34FFED2819B9F60300AF5CD9 /* chatBet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chatBet-Info.plist"; sourceTree = "<group>"; };
+		34FFED2A19B9F60300AF5CD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34FFED2C19B9F60300AF5CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34FFED2E19B9F60300AF5CD9 /* chatBet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chatBet-Prefix.pch"; sourceTree = "<group>"; };
+		34FFED2F19B9F60300AF5CD9 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		34FFED3019B9F60300AF5CD9 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		34FFED3319B9F60300AF5CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		34FFED3619B9F60300AF5CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		34FFED3819B9F60300AF5CD9 /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
+		34FFED3919B9F60300AF5CD9 /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
+		34FFED3B19B9F60300AF5CD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34FFED4119B9F60300AF5CD9 /* chatBetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatBetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FFED4219B9F60300AF5CD9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		34FFED4A19B9F60300AF5CD9 /* chatBetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chatBetTests-Info.plist"; sourceTree = "<group>"; };
+		34FFED4C19B9F60300AF5CD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34FFED4E19B9F60300AF5CD9 /* chatBetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatBetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34FFED1A19B9F60200AF5CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FFED2319B9F60300AF5CD9 /* CoreGraphics.framework in Frameworks */,
+				34FFED2519B9F60300AF5CD9 /* UIKit.framework in Frameworks */,
+				34FFED2119B9F60200AF5CD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FFED3E19B9F60300AF5CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FFED4319B9F60300AF5CD9 /* XCTest.framework in Frameworks */,
+				34FFED4519B9F60300AF5CD9 /* UIKit.framework in Frameworks */,
+				34FFED4419B9F60300AF5CD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34FFED1419B9F60200AF5CD9 = {
+			isa = PBXGroup;
+			children = (
+				34FFED2619B9F60300AF5CD9 /* chatBet */,
+				34FFED4819B9F60300AF5CD9 /* chatBetTests */,
+				34FFED1F19B9F60200AF5CD9 /* Frameworks */,
+				34FFED1E19B9F60200AF5CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34FFED1E19B9F60200AF5CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FFED1D19B9F60200AF5CD9 /* chatBet.app */,
+				34FFED4119B9F60300AF5CD9 /* chatBetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34FFED1F19B9F60200AF5CD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34FFED2019B9F60200AF5CD9 /* Foundation.framework */,
+				34FFED2219B9F60300AF5CD9 /* CoreGraphics.framework */,
+				34FFED2419B9F60300AF5CD9 /* UIKit.framework */,
+				34FFED4219B9F60300AF5CD9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34FFED2619B9F60300AF5CD9 /* chatBet */ = {
+			isa = PBXGroup;
+			children = (
+				34FFED2F19B9F60300AF5CD9 /* CBAppDelegate.h */,
+				34FFED3019B9F60300AF5CD9 /* CBAppDelegate.m */,
+				34FFED3219B9F60300AF5CD9 /* Main_iPhone.storyboard */,
+				34FFED3519B9F60300AF5CD9 /* Main_iPad.storyboard */,
+				34FFED3819B9F60300AF5CD9 /* CBViewController.h */,
+				34FFED3919B9F60300AF5CD9 /* CBViewController.m */,
+				34FFED3B19B9F60300AF5CD9 /* Images.xcassets */,
+				34FFED2719B9F60300AF5CD9 /* Supporting Files */,
+			);
+			path = chatBet;
+			sourceTree = "<group>";
+		};
+		34FFED2719B9F60300AF5CD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34FFED2819B9F60300AF5CD9 /* chatBet-Info.plist */,
+				34FFED2919B9F60300AF5CD9 /* InfoPlist.strings */,
+				34FFED2C19B9F60300AF5CD9 /* main.m */,
+				34FFED2E19B9F60300AF5CD9 /* chatBet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34FFED4819B9F60300AF5CD9 /* chatBetTests */ = {
+			isa = PBXGroup;
+			children = (
+				34FFED4E19B9F60300AF5CD9 /* chatBetTests.m */,
+				34FFED4919B9F60300AF5CD9 /* Supporting Files */,
+			);
+			path = chatBetTests;
+			sourceTree = "<group>";
+		};
+		34FFED4919B9F60300AF5CD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34FFED4A19B9F60300AF5CD9 /* chatBetTests-Info.plist */,
+				34FFED4B19B9F60300AF5CD9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34FFED1C19B9F60200AF5CD9 /* chatBet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FFED5219B9F60300AF5CD9 /* Build configuration list for PBXNativeTarget "chatBet" */;
+			buildPhases = (
+				34FFED1919B9F60200AF5CD9 /* Sources */,
+				34FFED1A19B9F60200AF5CD9 /* Frameworks */,
+				34FFED1B19B9F60200AF5CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatBet;
+			productName = chatBet;
+			productReference = 34FFED1D19B9F60200AF5CD9 /* chatBet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34FFED4019B9F60300AF5CD9 /* chatBetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FFED5519B9F60300AF5CD9 /* Build configuration list for PBXNativeTarget "chatBetTests" */;
+			buildPhases = (
+				34FFED3D19B9F60300AF5CD9 /* Sources */,
+				34FFED3E19B9F60300AF5CD9 /* Frameworks */,
+				34FFED3F19B9F60300AF5CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FFED4719B9F60300AF5CD9 /* PBXTargetDependency */,
+			);
+			name = chatBetTests;
+			productName = chatBetTests;
+			productReference = 34FFED4119B9F60300AF5CD9 /* chatBetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34FFED1519B9F60200AF5CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "chat bet ltd";
+				TargetAttributes = {
+					34FFED4019B9F60300AF5CD9 = {
+						TestTargetID = 34FFED1C19B9F60200AF5CD9;
+					};
+				};
+			};
+			buildConfigurationList = 34FFED1819B9F60200AF5CD9 /* Build configuration list for PBXProject "chatBet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34FFED1419B9F60200AF5CD9;
+			productRefGroup = 34FFED1E19B9F60200AF5CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34FFED1C19B9F60200AF5CD9 /* chatBet */,
+				34FFED4019B9F60300AF5CD9 /* chatBetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34FFED1B19B9F60200AF5CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FFED3719B9F60300AF5CD9 /* Main_iPad.storyboard in Resources */,
+				34FFED3C19B9F60300AF5CD9 /* Images.xcassets in Resources */,
+				34FFED3419B9F60300AF5CD9 /* Main_iPhone.storyboard in Resources */,
+				34FFED2B19B9F60300AF5CD9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FFED3F19B9F60300AF5CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FFED4D19B9F60300AF5CD9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34FFED1919B9F60200AF5CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FFED2D19B9F60300AF5CD9 /* main.m in Sources */,
+				34FFED3119B9F60300AF5CD9 /* CBAppDelegate.m in Sources */,
+				34FFED3A19B9F60300AF5CD9 /* CBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FFED3D19B9F60300AF5CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FFED4F19B9F60300AF5CD9 /* chatBetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34FFED4719B9F60300AF5CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FFED1C19B9F60200AF5CD9 /* chatBet */;
+			targetProxy = 34FFED4619B9F60300AF5CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34FFED2919B9F60300AF5CD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FFED2A19B9F60300AF5CD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34FFED3219B9F60300AF5CD9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FFED3319B9F60300AF5CD9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		34FFED3519B9F60300AF5CD9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FFED3619B9F60300AF5CD9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		34FFED4B19B9F60300AF5CD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FFED4C19B9F60300AF5CD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34FFED5019B9F60300AF5CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34FFED5119B9F60300AF5CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34FFED5319B9F60300AF5CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chatBet/chatBet-Prefix.pch";
+				INFOPLIST_FILE = "chatBet/chatBet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34FFED5419B9F60300AF5CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chatBet/chatBet-Prefix.pch";
+				INFOPLIST_FILE = "chatBet/chatBet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34FFED5619B9F60300AF5CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/chatBet.app/chatBet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chatBet/chatBet-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "chatBetTests/chatBetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		34FFED5719B9F60300AF5CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/chatBet.app/chatBet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chatBet/chatBet-Prefix.pch";
+				INFOPLIST_FILE = "chatBetTests/chatBetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34FFED1819B9F60200AF5CD9 /* Build configuration list for PBXProject "chatBet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FFED5019B9F60300AF5CD9 /* Debug */,
+				34FFED5119B9F60300AF5CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FFED5219B9F60300AF5CD9 /* Build configuration list for PBXNativeTarget "chatBet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FFED5319B9F60300AF5CD9 /* Debug */,
+				34FFED5419B9F60300AF5CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34FFED5519B9F60300AF5CD9 /* Build configuration list for PBXNativeTarget "chatBetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FFED5619B9F60300AF5CD9 /* Debug */,
+				34FFED5719B9F60300AF5CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34FFED1519B9F60200AF5CD9 /* Project object */;
+}
