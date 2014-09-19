@@ -11,5 +11,6 @@
 @interface CBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (assign, nonatomic) BOOL urlOpened;
 
 @end

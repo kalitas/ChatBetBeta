@@ -7,15 +7,49 @@
 //
 
 #import "CBAppDelegate.h"
+#import "CBViewController.h"
+#import "CBTournamentTypeViewController.h"
 
 @implementation CBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UINavigationController *nc = (UINavigationController *)self.window.rootViewController;
+    
+    nc.navigationBar.barStyle = UIBarStyleBlack;
+
+    if (launchOptions != nil)
+    {
+        
+        // Launch dictionary has data
+        NSURL* launchURL = [launchOptions objectForKey: UIApplicationLaunchOptionsURLKey];
+        self.urlOpened = YES;
+    }
     return YES;
 }
-							
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    NSLog(@"Calling Application Bundle ID: %@", sourceApplication);
+    NSLog(@"URL scheme:%@", [url scheme]);
+    NSLog(@"URL query: %@", [url query]);
+    self.urlOpened = YES;
+    UINavigationController *nc = (UINavigationController *)self.window.rootViewController;
+    if ([nc.visibleViewController isKindOfClass:[CBViewController class]])
+    {
+        CBViewController *vc  = nc.visibleViewController;
+        [vc.buttomButton sendActionsForControlEvents:UIControlEventTouchUpInside];
+    }
+    else if ([nc.visibleViewController isKindOfClass:[CBTournamentTypeViewController class]])
+    {
+        CBTournamentTypeViewController *vc = nc.visibleViewController;
+        [vc.buttomFriends sendActionsForControlEvents:UIControlEventTouchUpInside];
+    }
+
+    return YES;
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

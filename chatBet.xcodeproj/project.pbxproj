@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342925AB19C4BE5900E20878 /* nfs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342925A819C4BE5900E20878 /* nfs@2x.png */; };
+		342925AC19C4BE5900E20878 /* nf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342925A919C4BE5900E20878 /* nf@2x.png */; };
+		342925AD19C4BE5900E20878 /* tenniss@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342925AA19C4BE5900E20878 /* tenniss@2x.png */; };
+		342925B319C4C88500E20878 /* 13globallchat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342925B219C4C88500E20878 /* 13globallchat@2x.png */; };
+		34495E5519C5A23A003FAD3D /* RNBlurModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34495E5419C5A23A003FAD3D /* RNBlurModalView.m */; };
+		34495E5719C5A25C003FAD3D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34495E5619C5A25C003FAD3D /* Accelerate.framework */; };
+		34495E5919C5A260003FAD3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34495E5819C5A260003FAD3D /* QuartzCore.framework */; };
+		34495E5D19C5ADEA003FAD3D /* 5picked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34495E5C19C5ADEA003FAD3D /* 5picked@2x.png */; };
+		34495E5F19C6F187003FAD3D /* betCut@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34495E5E19C6F187003FAD3D /* betCut@2x.png */; };
+		34495E6119C6FB07003FAD3D /* winCut@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34495E6019C6FB07003FAD3D /* winCut@2x.png */; };
+		34495E6319C701FD003FAD3D /* globalnoback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34495E6219C701FD003FAD3D /* globalnoback@2x.png */; };
+		349FA0D319C84ADD00BFFCD2 /* basketBallScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0D219C84ADD00BFFCD2 /* basketBallScreen@2x.png */; };
+		349FA0DB19C8510100BFFCD2 /* 13allpage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0DA19C8510100BFFCD2 /* 13allpage@2x.png */; };
+		349FA0DF19C8546300BFFCD2 /* inlineq1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0DC19C8546300BFFCD2 /* inlineq1@2x.png */; };
+		349FA0E019C8546300BFFCD2 /* inlineq2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0DD19C8546300BFFCD2 /* inlineq2@2x.png */; };
+		349FA0E119C8546300BFFCD2 /* inlineq3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0DE19C8546300BFFCD2 /* inlineq3@2x.png */; };
+		349FA0E419CACEEE00BFFCD2 /* CBGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349FA0E319CACEEE00BFFCD2 /* CBGroupsViewController.m */; };
+		349FA0E719CACF0500BFFCD2 /* CBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349FA0E619CACF0500BFFCD2 /* CBSettingsViewController.m */; };
+		349FA0E919CACF3700BFFCD2 /* 15gamesetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0E819CACF3700BFFCD2 /* 15gamesetting@2x.png */; };
+		349FA0EB19CACF3E00BFFCD2 /* 15fullpage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0EA19CACF3E00BFFCD2 /* 15fullpage@2x.png */; };
+		349FA0ED19CAD2EA00BFFCD2 /* store@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0EC19CAD2EA00BFFCD2 /* store@2x.png */; };
+		349FA0EF19CAD4D200BFFCD2 /* popup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0EE19CAD4D200BFFCD2 /* popup@2x.png */; };
+		349FA0F219CC114A00BFFCD2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0F019CC114A00BFFCD2 /* Icon.png */; };
+		349FA0F319CC114A00BFFCD2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0F119CC114A00BFFCD2 /* Icon@2x.png */; };
+		349FA0F519CC11C400BFFCD2 /* backbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0F419CC11C400BFFCD2 /* backbutton@2x.png */; };
 		34FFED2119B9F60200AF5CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2019B9F60200AF5CD9 /* Foundation.framework */; };
 		34FFED2319B9F60300AF5CD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2219B9F60300AF5CD9 /* CoreGraphics.framework */; };
 		34FFED2519B9F60300AF5CD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2419B9F60300AF5CD9 /* UIKit.framework */; };
@@ -22,6 +47,26 @@
 		34FFED4519B9F60300AF5CD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2419B9F60300AF5CD9 /* UIKit.framework */; };
 		34FFED4D19B9F60300AF5CD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED4B19B9F60300AF5CD9 /* InfoPlist.strings */; };
 		34FFED4F19B9F60300AF5CD9 /* chatBetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFED4E19B9F60300AF5CD9 /* chatBetTests.m */; };
+		34FFED6419C2B5F000AF5CD9 /* CBTournamentTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFED6319C2B5F000AF5CD9 /* CBTournamentTypeViewController.m */; };
+		34FFED6719C31F6B00AF5CD9 /* chatscreennew@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED6619C31F6B00AF5CD9 /* chatscreennew@2x.png */; };
+		34FFED6A19C320A500AF5CD9 /* CBChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFED6919C320A500AF5CD9 /* CBChatViewController.m */; };
+		34FFED6E19C3227D00AF5CD9 /* 5placeyourbet-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED6B19C3227D00AF5CD9 /* 5placeyourbet-2@2x.png */; };
+		34FFED6F19C3227D00AF5CD9 /* 5unpick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED6C19C3227D00AF5CD9 /* 5unpick@2x.png */; };
+		34FFED7919C329A800AF5CD9 /* 3dollar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED7319C329A800AF5CD9 /* 3dollar@2x.png */; };
+		34FFED7A19C329A800AF5CD9 /* 3dollarSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED7419C329A800AF5CD9 /* 3dollarSelected@2x.png */; };
+		34FFED7B19C329A800AF5CD9 /* 3chattab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED7519C329A800AF5CD9 /* 3chattab@2x.png */; };
+		34FFED7C19C329A800AF5CD9 /* 3chattabopacity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED7619C329A800AF5CD9 /* 3chattabopacity@2x.png */; };
+		34FFED7D19C329A800AF5CD9 /* 3wintab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED7719C329A800AF5CD9 /* 3wintab@2x.png */; };
+		34FFED7E19C329A800AF5CD9 /* 3wintabopacity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED7819C329A800AF5CD9 /* 3wintabopacity@2x.png */; };
+		34FFED8919C3417400AF5CD9 /* 1bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED7F19C3417400AF5CD9 /* 1bg@2x.png */; };
+		34FFED8A19C3417400AF5CD9 /* 12barofleagues@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED8019C3417400AF5CD9 /* 12barofleagues@2x.png */; };
+		34FFED8B19C3417400AF5CD9 /* baskets@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED8119C3417400AF5CD9 /* baskets@2x.png */; };
+		34FFED8C19C3417400AF5CD9 /* basket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED8219C3417400AF5CD9 /* basket@2x.png */; };
+		34FFED8D19C3417400AF5CD9 /* 12onlygamelist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED8319C3417400AF5CD9 /* 12onlygamelist@2x.png */; };
+		34FFED8E19C3417400AF5CD9 /* soccers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED8419C3417400AF5CD9 /* soccers@2x.png */; };
+		34FFED8F19C3417400AF5CD9 /* soccer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED8519C3417400AF5CD9 /* soccer@2x.png */; };
+		34FFED9019C3417400AF5CD9 /* tennis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED8619C3417400AF5CD9 /* tennis@2x.png */; };
+		34FFED9219C3417400AF5CD9 /* 13chatbetfreindsbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFED8819C3417400AF5CD9 /* 13chatbetfreindsbutton@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +80,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		342925A819C4BE5900E20878 /* nfs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nfs@2x.png"; sourceTree = "<group>"; };
+		342925A919C4BE5900E20878 /* nf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nf@2x.png"; sourceTree = "<group>"; };
+		342925AA19C4BE5900E20878 /* tenniss@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tenniss@2x.png"; sourceTree = "<group>"; };
+		342925B219C4C88500E20878 /* 13globallchat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13globallchat@2x.png"; sourceTree = "<group>"; };
+		34495E5319C5A23A003FAD3D /* RNBlurModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNBlurModalView.h; path = Images/RNBlurModalView.h; sourceTree = "<group>"; };
+		34495E5419C5A23A003FAD3D /* RNBlurModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNBlurModalView.m; path = Images/RNBlurModalView.m; sourceTree = "<group>"; };
+		34495E5619C5A25C003FAD3D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		34495E5819C5A260003FAD3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		34495E5C19C5ADEA003FAD3D /* 5picked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5picked@2x.png"; sourceTree = "<group>"; };
+		34495E5E19C6F187003FAD3D /* betCut@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "betCut@2x.png"; sourceTree = "<group>"; };
+		34495E6019C6FB07003FAD3D /* winCut@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "winCut@2x.png"; sourceTree = "<group>"; };
+		34495E6219C701FD003FAD3D /* globalnoback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globalnoback@2x.png"; sourceTree = "<group>"; };
+		349FA0D219C84ADD00BFFCD2 /* basketBallScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basketBallScreen@2x.png"; sourceTree = "<group>"; };
+		349FA0DA19C8510100BFFCD2 /* 13allpage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13allpage@2x.png"; sourceTree = "<group>"; };
+		349FA0DC19C8546300BFFCD2 /* inlineq1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inlineq1@2x.png"; sourceTree = "<group>"; };
+		349FA0DD19C8546300BFFCD2 /* inlineq2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inlineq2@2x.png"; sourceTree = "<group>"; };
+		349FA0DE19C8546300BFFCD2 /* inlineq3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inlineq3@2x.png"; sourceTree = "<group>"; };
+		349FA0E219CACEEE00BFFCD2 /* CBGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBGroupsViewController.h; sourceTree = "<group>"; };
+		349FA0E319CACEEE00BFFCD2 /* CBGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBGroupsViewController.m; sourceTree = "<group>"; };
+		349FA0E519CACF0500BFFCD2 /* CBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsViewController.h; sourceTree = "<group>"; };
+		349FA0E619CACF0500BFFCD2 /* CBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsViewController.m; sourceTree = "<group>"; };
+		349FA0E819CACF3700BFFCD2 /* 15gamesetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15gamesetting@2x.png"; sourceTree = "<group>"; };
+		349FA0EA19CACF3E00BFFCD2 /* 15fullpage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15fullpage@2x.png"; sourceTree = "<group>"; };
+		349FA0EC19CAD2EA00BFFCD2 /* store@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "store@2x.png"; sourceTree = "<group>"; };
+		349FA0EE19CAD4D200BFFCD2 /* popup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup@2x.png"; sourceTree = "<group>"; };
+		349FA0F019CC114A00BFFCD2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		349FA0F119CC114A00BFFCD2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		349FA0F419CC11C400BFFCD2 /* backbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@2x.png"; sourceTree = "<group>"; };
 		34FFED1D19B9F60200AF5CD9 /* chatBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FFED2019B9F60200AF5CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		34FFED2219B9F60300AF5CD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +128,28 @@
 		34FFED4A19B9F60300AF5CD9 /* chatBetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chatBetTests-Info.plist"; sourceTree = "<group>"; };
 		34FFED4C19B9F60300AF5CD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		34FFED4E19B9F60300AF5CD9 /* chatBetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatBetTests.m; sourceTree = "<group>"; };
+		34FFED6219C2B5F000AF5CD9 /* CBTournamentTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBTournamentTypeViewController.h; sourceTree = "<group>"; };
+		34FFED6319C2B5F000AF5CD9 /* CBTournamentTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBTournamentTypeViewController.m; sourceTree = "<group>"; };
+		34FFED6619C31F6B00AF5CD9 /* chatscreennew@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatscreennew@2x.png"; sourceTree = "<group>"; };
+		34FFED6819C320A500AF5CD9 /* CBChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBChatViewController.h; sourceTree = "<group>"; };
+		34FFED6919C320A500AF5CD9 /* CBChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBChatViewController.m; sourceTree = "<group>"; };
+		34FFED6B19C3227D00AF5CD9 /* 5placeyourbet-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5placeyourbet-2@2x.png"; sourceTree = "<group>"; };
+		34FFED6C19C3227D00AF5CD9 /* 5unpick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5unpick@2x.png"; sourceTree = "<group>"; };
+		34FFED7319C329A800AF5CD9 /* 3dollar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3dollar@2x.png"; sourceTree = "<group>"; };
+		34FFED7419C329A800AF5CD9 /* 3dollarSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3dollarSelected@2x.png"; sourceTree = "<group>"; };
+		34FFED7519C329A800AF5CD9 /* 3chattab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3chattab@2x.png"; sourceTree = "<group>"; };
+		34FFED7619C329A800AF5CD9 /* 3chattabopacity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3chattabopacity@2x.png"; sourceTree = "<group>"; };
+		34FFED7719C329A800AF5CD9 /* 3wintab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3wintab@2x.png"; sourceTree = "<group>"; };
+		34FFED7819C329A800AF5CD9 /* 3wintabopacity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3wintabopacity@2x.png"; sourceTree = "<group>"; };
+		34FFED7F19C3417400AF5CD9 /* 1bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1bg@2x.png"; sourceTree = "<group>"; };
+		34FFED8019C3417400AF5CD9 /* 12barofleagues@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12barofleagues@2x.png"; sourceTree = "<group>"; };
+		34FFED8119C3417400AF5CD9 /* baskets@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baskets@2x.png"; sourceTree = "<group>"; };
+		34FFED8219C3417400AF5CD9 /* basket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basket@2x.png"; sourceTree = "<group>"; };
+		34FFED8319C3417400AF5CD9 /* 12onlygamelist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12onlygamelist@2x.png"; sourceTree = "<group>"; };
+		34FFED8419C3417400AF5CD9 /* soccers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soccers@2x.png"; sourceTree = "<group>"; };
+		34FFED8519C3417400AF5CD9 /* soccer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soccer@2x.png"; sourceTree = "<group>"; };
+		34FFED8619C3417400AF5CD9 /* tennis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tennis@2x.png"; sourceTree = "<group>"; };
+		34FFED8819C3417400AF5CD9 /* 13chatbetfreindsbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13chatbetfreindsbutton@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +157,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34495E5919C5A260003FAD3D /* QuartzCore.framework in Frameworks */,
+				34495E5719C5A25C003FAD3D /* Accelerate.framework in Frameworks */,
 				34FFED2319B9F60300AF5CD9 /* CoreGraphics.framework in Frameworks */,
 				34FFED2519B9F60300AF5CD9 /* UIKit.framework in Frameworks */,
 				34FFED2119B9F60200AF5CD9 /* Foundation.framework in Frameworks */,
@@ -81,6 +178,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		349FA0F619CC135400BFFCD2 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		34FFED1419B9F60200AF5CD9 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +207,8 @@
 		34FFED1F19B9F60200AF5CD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34495E5819C5A260003FAD3D /* QuartzCore.framework */,
+				34495E5619C5A25C003FAD3D /* Accelerate.framework */,
 				34FFED2019B9F60200AF5CD9 /* Foundation.framework */,
 				34FFED2219B9F60300AF5CD9 /* CoreGraphics.framework */,
 				34FFED2419B9F60300AF5CD9 /* UIKit.framework */,
@@ -114,6 +220,10 @@
 		34FFED2619B9F60300AF5CD9 /* chatBet */ = {
 			isa = PBXGroup;
 			children = (
+				349FA0F619CC135400BFFCD2 /* iPad */,
+				34495E5319C5A23A003FAD3D /* RNBlurModalView.h */,
+				34495E5419C5A23A003FAD3D /* RNBlurModalView.m */,
+				34FFED6519C31F0B00AF5CD9 /* Images */,
 				34FFED2F19B9F60300AF5CD9 /* CBAppDelegate.h */,
 				34FFED3019B9F60300AF5CD9 /* CBAppDelegate.m */,
 				34FFED3219B9F60300AF5CD9 /* Main_iPhone.storyboard */,
@@ -122,6 +232,14 @@
 				34FFED3919B9F60300AF5CD9 /* CBViewController.m */,
 				34FFED3B19B9F60300AF5CD9 /* Images.xcassets */,
 				34FFED2719B9F60300AF5CD9 /* Supporting Files */,
+				34FFED6219C2B5F000AF5CD9 /* CBTournamentTypeViewController.h */,
+				34FFED6319C2B5F000AF5CD9 /* CBTournamentTypeViewController.m */,
+				34FFED6819C320A500AF5CD9 /* CBChatViewController.h */,
+				34FFED6919C320A500AF5CD9 /* CBChatViewController.m */,
+				349FA0E219CACEEE00BFFCD2 /* CBGroupsViewController.h */,
+				349FA0E319CACEEE00BFFCD2 /* CBGroupsViewController.m */,
+				349FA0E519CACF0500BFFCD2 /* CBSettingsViewController.h */,
+				349FA0E619CACF0500BFFCD2 /* CBSettingsViewController.m */,
 			);
 			path = chatBet;
 			sourceTree = "<group>";
@@ -153,6 +271,51 @@
 				34FFED4B19B9F60300AF5CD9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34FFED6519C31F0B00AF5CD9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				349FA0F419CC11C400BFFCD2 /* backbutton@2x.png */,
+				349FA0F019CC114A00BFFCD2 /* Icon.png */,
+				349FA0F119CC114A00BFFCD2 /* Icon@2x.png */,
+				349FA0EC19CAD2EA00BFFCD2 /* store@2x.png */,
+				349FA0E819CACF3700BFFCD2 /* 15gamesetting@2x.png */,
+				349FA0EA19CACF3E00BFFCD2 /* 15fullpage@2x.png */,
+				349FA0DC19C8546300BFFCD2 /* inlineq1@2x.png */,
+				349FA0DD19C8546300BFFCD2 /* inlineq2@2x.png */,
+				349FA0DE19C8546300BFFCD2 /* inlineq3@2x.png */,
+				349FA0DA19C8510100BFFCD2 /* 13allpage@2x.png */,
+				349FA0D219C84ADD00BFFCD2 /* basketBallScreen@2x.png */,
+				34FFED8319C3417400AF5CD9 /* 12onlygamelist@2x.png */,
+				34495E6219C701FD003FAD3D /* globalnoback@2x.png */,
+				34495E6019C6FB07003FAD3D /* winCut@2x.png */,
+				34495E5E19C6F187003FAD3D /* betCut@2x.png */,
+				34495E5C19C5ADEA003FAD3D /* 5picked@2x.png */,
+				342925B219C4C88500E20878 /* 13globallchat@2x.png */,
+				342925A819C4BE5900E20878 /* nfs@2x.png */,
+				342925A919C4BE5900E20878 /* nf@2x.png */,
+				342925AA19C4BE5900E20878 /* tenniss@2x.png */,
+				34FFED7F19C3417400AF5CD9 /* 1bg@2x.png */,
+				34FFED8019C3417400AF5CD9 /* 12barofleagues@2x.png */,
+				34FFED8119C3417400AF5CD9 /* baskets@2x.png */,
+				34FFED8219C3417400AF5CD9 /* basket@2x.png */,
+				34FFED8419C3417400AF5CD9 /* soccers@2x.png */,
+				34FFED8519C3417400AF5CD9 /* soccer@2x.png */,
+				34FFED8619C3417400AF5CD9 /* tennis@2x.png */,
+				34FFED8819C3417400AF5CD9 /* 13chatbetfreindsbutton@2x.png */,
+				349FA0EE19CAD4D200BFFCD2 /* popup@2x.png */,
+				34FFED7319C329A800AF5CD9 /* 3dollar@2x.png */,
+				34FFED7419C329A800AF5CD9 /* 3dollarSelected@2x.png */,
+				34FFED7519C329A800AF5CD9 /* 3chattab@2x.png */,
+				34FFED7619C329A800AF5CD9 /* 3chattabopacity@2x.png */,
+				34FFED7719C329A800AF5CD9 /* 3wintab@2x.png */,
+				34FFED7819C329A800AF5CD9 /* 3wintabopacity@2x.png */,
+				34FFED6B19C3227D00AF5CD9 /* 5placeyourbet-2@2x.png */,
+				34FFED6C19C3227D00AF5CD9 /* 5unpick@2x.png */,
+				34FFED6619C31F6B00AF5CD9 /* chatscreennew@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +395,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FFED7919C329A800AF5CD9 /* 3dollar@2x.png in Resources */,
+				349FA0EB19CACF3E00BFFCD2 /* 15fullpage@2x.png in Resources */,
+				342925AD19C4BE5900E20878 /* tenniss@2x.png in Resources */,
+				342925AB19C4BE5900E20878 /* nfs@2x.png in Resources */,
+				349FA0E119C8546300BFFCD2 /* inlineq3@2x.png in Resources */,
+				34FFED8C19C3417400AF5CD9 /* basket@2x.png in Resources */,
+				34FFED8919C3417400AF5CD9 /* 1bg@2x.png in Resources */,
+				34FFED9019C3417400AF5CD9 /* tennis@2x.png in Resources */,
+				349FA0D319C84ADD00BFFCD2 /* basketBallScreen@2x.png in Resources */,
+				34FFED8E19C3417400AF5CD9 /* soccers@2x.png in Resources */,
+				342925AC19C4BE5900E20878 /* nf@2x.png in Resources */,
+				34FFED6F19C3227D00AF5CD9 /* 5unpick@2x.png in Resources */,
+				349FA0F219CC114A00BFFCD2 /* Icon.png in Resources */,
+				349FA0E019C8546300BFFCD2 /* inlineq2@2x.png in Resources */,
 				34FFED3719B9F60300AF5CD9 /* Main_iPad.storyboard in Resources */,
+				34FFED7D19C329A800AF5CD9 /* 3wintab@2x.png in Resources */,
+				34495E5D19C5ADEA003FAD3D /* 5picked@2x.png in Resources */,
+				349FA0ED19CAD2EA00BFFCD2 /* store@2x.png in Resources */,
+				349FA0EF19CAD4D200BFFCD2 /* popup@2x.png in Resources */,
+				34FFED8A19C3417400AF5CD9 /* 12barofleagues@2x.png in Resources */,
+				342925B319C4C88500E20878 /* 13globallchat@2x.png in Resources */,
+				349FA0DF19C8546300BFFCD2 /* inlineq1@2x.png in Resources */,
+				34FFED8B19C3417400AF5CD9 /* baskets@2x.png in Resources */,
+				34FFED9219C3417400AF5CD9 /* 13chatbetfreindsbutton@2x.png in Resources */,
+				34FFED8D19C3417400AF5CD9 /* 12onlygamelist@2x.png in Resources */,
+				34FFED7E19C329A800AF5CD9 /* 3wintabopacity@2x.png in Resources */,
+				34FFED7B19C329A800AF5CD9 /* 3chattab@2x.png in Resources */,
+				34495E5F19C6F187003FAD3D /* betCut@2x.png in Resources */,
 				34FFED3C19B9F60300AF5CD9 /* Images.xcassets in Resources */,
+				34495E6319C701FD003FAD3D /* globalnoback@2x.png in Resources */,
+				349FA0F519CC11C400BFFCD2 /* backbutton@2x.png in Resources */,
+				349FA0F319CC114A00BFFCD2 /* Icon@2x.png in Resources */,
+				34FFED6719C31F6B00AF5CD9 /* chatscreennew@2x.png in Resources */,
+				34FFED8F19C3417400AF5CD9 /* soccer@2x.png in Resources */,
+				34495E6119C6FB07003FAD3D /* winCut@2x.png in Resources */,
+				349FA0E919CACF3700BFFCD2 /* 15gamesetting@2x.png in Resources */,
+				34FFED6E19C3227D00AF5CD9 /* 5placeyourbet-2@2x.png in Resources */,
 				34FFED3419B9F60300AF5CD9 /* Main_iPhone.storyboard in Resources */,
+				349FA0DB19C8510100BFFCD2 /* 13allpage@2x.png in Resources */,
+				34FFED7A19C329A800AF5CD9 /* 3dollarSelected@2x.png in Resources */,
 				34FFED2B19B9F60300AF5CD9 /* InfoPlist.strings in Resources */,
+				34FFED7C19C329A800AF5CD9 /* 3chattabopacity@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +455,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FFED6419C2B5F000AF5CD9 /* CBTournamentTypeViewController.m in Sources */,
 				34FFED2D19B9F60300AF5CD9 /* main.m in Sources */,
+				349FA0E719CACF0500BFFCD2 /* CBSettingsViewController.m in Sources */,
+				349FA0E419CACEEE00BFFCD2 /* CBGroupsViewController.m in Sources */,
+				34FFED6A19C320A500AF5CD9 /* CBChatViewController.m in Sources */,
 				34FFED3119B9F60300AF5CD9 /* CBAppDelegate.m in Sources */,
 				34FFED3A19B9F60300AF5CD9 /* CBViewController.m in Sources */,
+				34495E5519C5A23A003FAD3D /* RNBlurModalView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,10 +597,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Applicaster Ltd.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "chatBet/chatBet-Prefix.pch";
 				INFOPLIST_FILE = "chatBet/chatBet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A5C362FD-3CEC-4325-922B-E7533E6F881A";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,10 +614,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Applicaster Ltd.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "chatBet/chatBet-Prefix.pch";
 				INFOPLIST_FILE = "chatBet/chatBet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A5C362FD-3CEC-4325-922B-E7533E6F881A";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +685,7 @@
 				34FFED5419B9F60300AF5CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34FFED5519B9F60300AF5CD9 /* Build configuration list for PBXNativeTarget "chatBetTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +694,7 @@
 				34FFED5719B9F60300AF5CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
