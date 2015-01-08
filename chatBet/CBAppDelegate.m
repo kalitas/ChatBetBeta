@@ -9,6 +9,8 @@
 #import "CBAppDelegate.h"
 #import "CBViewController.h"
 #import "CBTournamentTypeViewController.h"
+#import "CBSettingsViewController.h"
+#import "CBGroupsViewController.h"
 
 @implementation CBAppDelegate
 
@@ -46,7 +48,16 @@
         CBTournamentTypeViewController *vc = nc.visibleViewController;
         [vc.buttomFriends sendActionsForControlEvents:UIControlEventTouchUpInside];
     }
-
+    else if ([nc.visibleViewController isKindOfClass:[CBSettingsViewController class]])
+    {
+        CBSettingsViewController *vc = nc.visibleViewController;
+        [vc.buttomFriends sendActionsForControlEvents:UIControlEventTouchUpInside];
+    }
+    else if ([nc.visibleViewController isKindOfClass:[CBGroupsViewController class]])
+    {
+        CBGroupsViewController *vc = nc.visibleViewController;
+        [vc.buttomFriends sendActionsForControlEvents:UIControlEventTouchUpInside];
+    }
     return YES;
 }
 

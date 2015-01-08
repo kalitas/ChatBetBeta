@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MFMessageComposeViewController.h>
 
-@interface CBChatViewController : UIViewController
+@interface CBChatViewController : UIViewController <MFMessageComposeViewControllerDelegate>
 
+@property (nonatomic, weak) IBOutlet UIButton *invite;
 @property (nonatomic, weak) IBOutlet UIButton *chat;
 @property (nonatomic, weak) IBOutlet UIButton *bet;
 @property (nonatomic, weak) IBOutlet UIButton *rank;
@@ -29,6 +31,8 @@
 @property (nonatomic, strong) UIView *badgeRank;
 @property (nonatomic, strong) NSTimer *timerForBadgeDisplay;
 @property (nonatomic, strong) NSArray *inlineQuestions;
+@property (nonatomic, strong) NSArray *pregameQuestions;
+
 @property (nonatomic, assign) int inlineQuestionsIndex;
 
 @property (nonatomic, assign) int secondsLeftForBadgeDisplay;
@@ -40,4 +44,6 @@
 - (IBAction)betButton2Pressed:(id)sender;
 - (IBAction)betButton3Pressed:(id)sender;
 - (IBAction)unwind:(id)sender;
+- (IBAction)invitePressed:(id)sender;
+
 @end

@@ -61,7 +61,6 @@
     if ([appDelegate urlOpened] == YES)
     {
         [self.buttomFriends sendActionsForControlEvents:UIControlEventTouchUpInside];
-        appDelegate.urlOpened = NO;
     }
 }
 

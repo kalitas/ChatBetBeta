@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="YED-gR-H4M">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="YED-gR-H4M">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller - GAME LIST-->
+        <!--GAME LIST-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="CBViewController" sceneMemberID="viewController">
@@ -219,6 +220,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="JQ3-bO-sXu"/>
+                    <connections>
+                        <outlet property="buttomFriends" destination="yCb-5s-h1G" id="G4G-zY-RLg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Cl-gF-hwr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -246,6 +250,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZJb-wY-XyF"/>
+                    <connections>
+                        <outlet property="buttomFriends" destination="Agj-Eq-0fK" id="5tr-gj-Qc2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jPB-am-bv4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -296,6 +303,16 @@
                                     <action selector="rankPressed:" destination="F44-Xi-zv4" eventType="touchUpInside" id="CIA-TR-Fop"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qZK-uc-AUl" userLabel="invite">
+                                <rect key="frame" x="24" y="512" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="invitePressed:" destination="F44-Xi-zv4" eventType="touchUpInside" id="aEE-Nw-hjN"/>
+                                </connections>
+                            </button>
                             <view hidden="YES" contentMode="scaleToFill" id="1xB-9X-z2C" userLabel="View buttom">
                                 <rect key="frame" x="0.0" y="124" width="320" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -310,34 +327,34 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FS6-be-fvQ" userLabel="Button 1">
-                                                <rect key="frame" x="24" y="14" width="26" height="26"/>
+                                                <rect key="frame" x="18" y="10" width="40" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" backgroundImage="5unpick.png">
+                                                <state key="normal" image="5unpick.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <state key="selected" backgroundImage="5picked.png"/>
+                                                <state key="selected" image="5picked.png"/>
                                                 <connections>
                                                     <action selector="betButton1Pressed:" destination="F44-Xi-zv4" eventType="touchUpInside" id="Kyp-Xy-Zgi"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZqC-IW-iC5" userLabel="Button 2">
-                                                <rect key="frame" x="102" y="14" width="26" height="26"/>
+                                                <rect key="frame" x="96" y="10" width="40" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" backgroundImage="5unpick.png">
+                                                <state key="normal" image="5unpick.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <state key="selected" backgroundImage="5picked.png"/>
+                                                <state key="selected" image="5picked.png"/>
                                                 <connections>
                                                     <action selector="betButton2Pressed:" destination="F44-Xi-zv4" eventType="touchUpInside" id="7Qc-za-Wzf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3Yw-Jn-btF" userLabel="Button 3">
-                                                <rect key="frame" x="185" y="14" width="26" height="26"/>
+                                                <rect key="frame" x="179" y="10" width="40" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" backgroundImage="5unpick.png">
+                                                <state key="normal" image="5unpick.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <state key="selected" backgroundImage="5picked.png"/>
+                                                <state key="selected" image="5picked.png"/>
                                                 <connections>
                                                     <action selector="betButton3Pressed:" destination="F44-Xi-zv4" eventType="touchUpInside" id="YL0-6Z-BxP"/>
                                                 </connections>
@@ -360,9 +377,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="A13-EG-Avl" userLabel="Button - store">
-                                        <rect key="frame" x="34" y="401" width="25" height="25"/>
+                                        <rect key="frame" x="7" y="391" width="79" height="38"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <state key="normal" title="Button" backgroundImage="store.png">
+                                        <state key="normal" image="store.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>

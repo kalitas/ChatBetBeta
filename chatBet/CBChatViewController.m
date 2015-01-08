@@ -8,9 +8,12 @@
 
 #import "CBChatViewController.h"
 #import "RNBlurModalView.h"
+#import <MessageUI/MessageUI.h>
 
 @interface CBChatViewController ()
-
+{
+    int _counterForBetPressed;
+}
 @end
 
 @implementation CBChatViewController
@@ -27,6 +30,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _counterForBetPressed = 0;
     self.chat.selected = YES;
     
     UILabel *numberBet = [[UILabel alloc] init];
@@ -77,36 +81,151 @@
     [rightRecognizer setDirection: UISwipeGestureRecognizerDirectionRight];
     [[self view] addGestureRecognizer:rightRecognizer];
     
-    self.inlineQuestions = [NSArray arrayWithObjects:@"inlineq1", @"inlineq2", @"inlineq3", nil];
+    self.inlineQuestions = [NSArray arrayWithObjects:@"inlineq1", @"inlineq2", @"inlineq3",@"inlineq4", @"inlineq5", @"inlineq6", @"inlineq7", nil];
+    
+    self.pregameQuestions = [NSArray arrayWithObjects:@"betCut", @"inlineq5", @"inlineq8", nil];
+}
+
+- (IBAction)invitePressed:(id)sender
+{
+    if ([UIAlertController class])
+    {
+        // use UIAlertController
+        UIAlertController *alert= [UIAlertController
+                                   alertControllerWithTitle:@"Which way you preffer to invite more friends?"
+                                   message:@""
+                                   preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction *whatsapp = [UIAlertAction actionWithTitle:@"WhatsApp" style:UIAlertActionStyleDefault
+                                                   handler:^(UIAlertAction * action){
+                                                     
+                                                       NSURL *whatsappURL = [NSURL URLWithString:@"whatsapp://send?text=chatbet://joinMyGroup"];
+                                                       if ([[UIApplication sharedApplication] canOpenURL: whatsappURL]) {
+                                                           [[UIApplication sharedApplication] openURL: whatsappURL];
+                                                       }
+                                                       
+                                                   }];
+        
+        UIAlertAction *sms = [UIAlertAction actionWithTitle:@"SMS" style:UIAlertActionStyleDefault
+                                                   handler:^(UIAlertAction * action){
+                                                       
+                                                       if([MFMessageComposeViewController canSendText]) {
+                                                           MFMessageComposeViewController *controller = [[MFMessageComposeViewController alloc] init];
+                                                           controller.body = @"chatbet://joinMyGroup";
+                                                           
+                                                           controller.messageComposeDelegate = self;
+                                                           [self presentViewController:controller animated:YES completion:nil];
+                                                       }
+                                                       
+                                                   }];
+        
+        UIAlertAction *contacts = [UIAlertAction actionWithTitle:@"Contacts" style:UIAlertActionStyleDefault
+                                                    handler:^(UIAlertAction * action){
+                                                        
+                                                        
+                                                        
+                                                    }];
+
+        UIAlertAction* cancel = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDefault
+                                                       handler:^(UIAlertAction * action) {
+                                                           
+                                                           [alert dismissViewControllerAnimated:YES completion:nil];
+                                                           
+                                                       }];
+        
+        [alert addAction:whatsapp];
+        [alert addAction:sms];
+        [alert addAction:contacts];
+        [alert addAction:cancel];
+        
+        [self presentViewController:alert animated:YES completion:nil];
+        
+    }
+    else
+    {
+    
+        
+    }
+}
+
+- (void)messageComposeViewController:(MFMessageComposeViewController *)controller
+                 didFinishWithResult:(MessageComposeResult)result {
+    switch(result) {
+        case MessageComposeResultCancelled:
+            // user canceled sms
+            [self dismissViewControllerAnimated:YES completion:nil];
+            break;
+        case MessageComposeResultSent:
+            // user sent sms
+            //perhaps put an alert here and dismiss the view on one of the alerts buttons
+            break;
+        case MessageComposeResultFailed:
+            // sms send failed
+            //perhaps put an alert here and dismiss the view when the alert is canceled
+            break;
+        default:
+            break;
+    }
 }
 
 - (void)handleSwipeFrom:(UISwipeGestureRecognizer *)gest
 {
-    if (gest.direction == UISwipeGestureRecognizerDirectionLeft)
+    if (!self.hasSeenMoneyMessage) //pregame
     {
-        if (self.inlineQuestionsIndex == 2)
+        if (gest.direction == UISwipeGestureRecognizerDirectionLeft)
         {
-            self.inlineQuestionsIndex = 0;
+            if (self.inlineQuestionsIndex == 2)
+            {
+                self.inlineQuestionsIndex = 0;
+            }
+            else
+            {
+                self.inlineQuestionsIndex += 1;
+            }
         }
         else
         {
-            self.inlineQuestionsIndex += 1;
+            if (self.inlineQuestionsIndex == 0)
+            {
+                self.inlineQuestionsIndex = 2;
+            }
+            else
+            {
+                self.inlineQuestionsIndex -= 1;
+            }
         }
+        [self.betTitleQuestionsNumbers setText:[NSString stringWithFormat:@"%d/3", self.inlineQuestionsIndex + 1]];
+        NSString *imageName = [self.pregameQuestions objectAtIndex:self.inlineQuestionsIndex];
+        [self.buttomImage setImage:[UIImage imageNamed:imageName]];
     }
     else
     {
-        if (self.inlineQuestionsIndex == 0)
+        if (gest.direction == UISwipeGestureRecognizerDirectionLeft)
         {
-            self.inlineQuestionsIndex = 2;
+            if (self.inlineQuestionsIndex == 5)
+            {
+                self.inlineQuestionsIndex = 0;
+            }
+            else
+            {
+                self.inlineQuestionsIndex += 1;
+            }
         }
         else
         {
-            self.inlineQuestionsIndex -= 1;
+            if (self.inlineQuestionsIndex == 0)
+            {
+                self.inlineQuestionsIndex = 5;
+            }
+            else
+            {
+                self.inlineQuestionsIndex -= 1;
+            }
         }
+        [self.betTitleQuestionsNumbers setText:[NSString stringWithFormat:@"%d/6", self.inlineQuestionsIndex + 1]];
+        NSString *imageName = [self.inlineQuestions objectAtIndex:self.inlineQuestionsIndex];
+        [self.buttomImage setImage:[UIImage imageNamed:imageName]];
     }
-    [self.betTitleQuestionsNumbers setText:[NSString stringWithFormat:@"%d/3", self.inlineQuestionsIndex + 1]];
-    NSString *imageName = [self.inlineQuestions objectAtIndex:self.inlineQuestionsIndex];
-    [self.buttomImage setImage:[UIImage imageNamed:imageName]];
 }
 
 //- (void)updateCountdown
@@ -178,6 +297,11 @@
 
 - (IBAction)betPressed:(id)sender
 {
+    ++_counterForBetPressed;
+    if (_counterForBetPressed > 1)
+    {
+        self.hasSeenMoneyMessage = YES;
+    }
     [self animateBadge:self.badgeBet shouldHide:YES withNumber:0];
     self.betTitleQuestions.hidden = NO;
     
@@ -194,8 +318,8 @@
     {
         [self.betTitleQuestions setText:@"PREGAME QUESTIONS"];
         [self.buttomImage setImage:[UIImage imageNamed:@"betCut"]];
-                self.buttonsView.hidden = NO;
-        self.betTitleQuestionsNumbers.hidden = YES;
+        self.buttonsView.hidden = NO;
+        [self.betTitleQuestionsNumbers setText:[NSString stringWithFormat:@"1/3"]];
 
     }
     else
@@ -204,7 +328,7 @@
         [self.buttomImage setImage:[UIImage imageNamed:@"inlineq1"]];
         self.buttonsView.hidden = NO;
         self.betTitleQuestionsNumbers.hidden = NO;
-        [self.betTitleQuestionsNumbers setText:[NSString stringWithFormat:@"1/3"]];
+        [self.betTitleQuestionsNumbers setText:[NSString stringWithFormat:@"1/6"]];
         
     }
 }
@@ -239,8 +363,8 @@
 {
     if (!self.hasSeenMoneyMessage)
     {
-        RNBlurModalView *modal = [[RNBlurModalView alloc] initWithViewController:self title:@"Daniel Challenged You!" message:@"Enter fee 5$" andPositiveTitle:@"I'm in!"];
-        [modal show];
+//        RNBlurModalView *modal = [[RNBlurModalView alloc] initWithViewController:self title:@"Daniel Challenged You!" message:@"Enter fee 5$" andPositiveTitle:@"I'm in!"];
+//        [modal show];
     }
     
 }
@@ -248,7 +372,6 @@
 - (IBAction)betButton1Pressed:(id)sender
 {
     [self showMoneyMessage];
-    self.hasSeenMoneyMessage = YES;
     self.betButton1.selected = YES;
     self.betButton2.selected = NO;
     self.betButton3.selected = NO;
@@ -257,7 +380,6 @@
 - (IBAction)betButton2Pressed:(id)sender
 {
     [self showMoneyMessage];
-    self.hasSeenMoneyMessage = YES;
 
     self.betButton1.selected = NO;
     self.betButton2.selected = YES;
@@ -273,7 +395,6 @@
 - (IBAction)betButton3Pressed:(id)sender
 {
     [self showMoneyMessage];
-    self.hasSeenMoneyMessage = YES;
 
     self.betButton1.selected = NO;
     self.betButton2.selected = NO;

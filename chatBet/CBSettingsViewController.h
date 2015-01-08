@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CBSettingsViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIButton *buttomFriends;
 
 @end

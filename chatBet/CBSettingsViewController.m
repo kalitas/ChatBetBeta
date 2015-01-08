@@ -7,6 +7,7 @@
 //
 
 #import "CBSettingsViewController.h"
+#import "CBAppDelegate.h"
 
 @interface CBSettingsViewController ()
 
@@ -36,6 +37,18 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    CBAppDelegate *appDelegate = (CBAppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    if ([appDelegate urlOpened] == YES)
+    {
+        [self.buttomFriends sendActionsForControlEvents:UIControlEventTouchUpInside];
+        appDelegate.urlOpened = NO;
+    }
 }
 
 - (void)didReceiveMemoryWarning

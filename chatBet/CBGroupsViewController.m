@@ -7,6 +7,7 @@
 //
 
 #import "CBGroupsViewController.h"
+#import "CBAppDelegate.h"
 
 @interface CBGroupsViewController ()
 
@@ -29,6 +30,18 @@
     
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style: UIBarButtonItemStylePlain target:nil action:nil];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    CBAppDelegate *appDelegate = (CBAppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    if ([appDelegate urlOpened] == YES)
+    {
+        [self.buttomFriends sendActionsForControlEvents:UIControlEventTouchUpInside];
+    }
 }
 
 - (void)viewDidLoad

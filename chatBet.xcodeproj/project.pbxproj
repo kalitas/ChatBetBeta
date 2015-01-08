@@ -32,6 +32,12 @@
 		349FA0F219CC114A00BFFCD2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0F019CC114A00BFFCD2 /* Icon.png */; };
 		349FA0F319CC114A00BFFCD2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0F119CC114A00BFFCD2 /* Icon@2x.png */; };
 		349FA0F519CC11C400BFFCD2 /* backbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FA0F419CC11C400BFFCD2 /* backbutton@2x.png */; };
+		34CCDE4E1A5E9549000E4B1B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CCDE4D1A5E9548000E4B1B /* MessageUI.framework */; };
+		34CCDE531A5EB3E3000E4B1B /* inlineq4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CCDE4F1A5EB3E3000E4B1B /* inlineq4@2x.png */; };
+		34CCDE541A5EB3E3000E4B1B /* inlineq5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CCDE501A5EB3E3000E4B1B /* inlineq5@2x.png */; };
+		34CCDE551A5EB3E3000E4B1B /* inlineq6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CCDE511A5EB3E3000E4B1B /* inlineq6@2x.png */; };
+		34CCDE561A5EB3E3000E4B1B /* inlineq7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CCDE521A5EB3E3000E4B1B /* inlineq7@2x.png */; };
+		34CCDE581A5EBDE1000E4B1B /* inlineq8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CCDE571A5EBDE1000E4B1B /* inlineq8@2x.png */; };
 		34FFED2119B9F60200AF5CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2019B9F60200AF5CD9 /* Foundation.framework */; };
 		34FFED2319B9F60300AF5CD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2219B9F60300AF5CD9 /* CoreGraphics.framework */; };
 		34FFED2519B9F60300AF5CD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFED2419B9F60300AF5CD9 /* UIKit.framework */; };
@@ -108,6 +114,12 @@
 		349FA0F019CC114A00BFFCD2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		349FA0F119CC114A00BFFCD2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		349FA0F419CC11C400BFFCD2 /* backbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@2x.png"; sourceTree = "<group>"; };
+		34CCDE4D1A5E9548000E4B1B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		34CCDE4F1A5EB3E3000E4B1B /* inlineq4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inlineq4@2x.png"; sourceTree = "<group>"; };
+		34CCDE501A5EB3E3000E4B1B /* inlineq5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inlineq5@2x.png"; sourceTree = "<group>"; };
+		34CCDE511A5EB3E3000E4B1B /* inlineq6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inlineq6@2x.png"; sourceTree = "<group>"; };
+		34CCDE521A5EB3E3000E4B1B /* inlineq7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inlineq7@2x.png"; sourceTree = "<group>"; };
+		34CCDE571A5EBDE1000E4B1B /* inlineq8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inlineq8@2x.png"; sourceTree = "<group>"; };
 		34FFED1D19B9F60200AF5CD9 /* chatBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FFED2019B9F60200AF5CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		34FFED2219B9F60300AF5CD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -157,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CCDE4E1A5E9549000E4B1B /* MessageUI.framework in Frameworks */,
 				34495E5919C5A260003FAD3D /* QuartzCore.framework in Frameworks */,
 				34495E5719C5A25C003FAD3D /* Accelerate.framework in Frameworks */,
 				34FFED2319B9F60300AF5CD9 /* CoreGraphics.framework in Frameworks */,
@@ -207,6 +220,7 @@
 		34FFED1F19B9F60200AF5CD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34CCDE4D1A5E9548000E4B1B /* MessageUI.framework */,
 				34495E5819C5A260003FAD3D /* QuartzCore.framework */,
 				34495E5619C5A25C003FAD3D /* Accelerate.framework */,
 				34FFED2019B9F60200AF5CD9 /* Foundation.framework */,
@@ -276,6 +290,11 @@
 		34FFED6519C31F0B00AF5CD9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				34CCDE4F1A5EB3E3000E4B1B /* inlineq4@2x.png */,
+				34CCDE501A5EB3E3000E4B1B /* inlineq5@2x.png */,
+				34CCDE571A5EBDE1000E4B1B /* inlineq8@2x.png */,
+				34CCDE511A5EB3E3000E4B1B /* inlineq6@2x.png */,
+				34CCDE521A5EB3E3000E4B1B /* inlineq7@2x.png */,
 				349FA0F419CC11C400BFFCD2 /* backbutton@2x.png */,
 				349FA0F019CC114A00BFFCD2 /* Icon.png */,
 				349FA0F119CC114A00BFFCD2 /* Icon@2x.png */,
@@ -408,6 +427,7 @@
 				342925AC19C4BE5900E20878 /* nf@2x.png in Resources */,
 				34FFED6F19C3227D00AF5CD9 /* 5unpick@2x.png in Resources */,
 				349FA0F219CC114A00BFFCD2 /* Icon.png in Resources */,
+				34CCDE541A5EB3E3000E4B1B /* inlineq5@2x.png in Resources */,
 				349FA0E019C8546300BFFCD2 /* inlineq2@2x.png in Resources */,
 				34FFED3719B9F60300AF5CD9 /* Main_iPad.storyboard in Resources */,
 				34FFED7D19C329A800AF5CD9 /* 3wintab@2x.png in Resources */,
@@ -417,15 +437,18 @@
 				34FFED8A19C3417400AF5CD9 /* 12barofleagues@2x.png in Resources */,
 				342925B319C4C88500E20878 /* 13globallchat@2x.png in Resources */,
 				349FA0DF19C8546300BFFCD2 /* inlineq1@2x.png in Resources */,
+				34CCDE551A5EB3E3000E4B1B /* inlineq6@2x.png in Resources */,
 				34FFED8B19C3417400AF5CD9 /* baskets@2x.png in Resources */,
 				34FFED9219C3417400AF5CD9 /* 13chatbetfreindsbutton@2x.png in Resources */,
 				34FFED8D19C3417400AF5CD9 /* 12onlygamelist@2x.png in Resources */,
 				34FFED7E19C329A800AF5CD9 /* 3wintabopacity@2x.png in Resources */,
 				34FFED7B19C329A800AF5CD9 /* 3chattab@2x.png in Resources */,
 				34495E5F19C6F187003FAD3D /* betCut@2x.png in Resources */,
+				34CCDE581A5EBDE1000E4B1B /* inlineq8@2x.png in Resources */,
 				34FFED3C19B9F60300AF5CD9 /* Images.xcassets in Resources */,
 				34495E6319C701FD003FAD3D /* globalnoback@2x.png in Resources */,
 				349FA0F519CC11C400BFFCD2 /* backbutton@2x.png in Resources */,
+				34CCDE531A5EB3E3000E4B1B /* inlineq4@2x.png in Resources */,
 				349FA0F319CC114A00BFFCD2 /* Icon@2x.png in Resources */,
 				34FFED6719C31F6B00AF5CD9 /* chatscreennew@2x.png in Resources */,
 				34FFED8F19C3417400AF5CD9 /* soccer@2x.png in Resources */,
@@ -437,6 +460,7 @@
 				34FFED7A19C329A800AF5CD9 /* 3dollarSelected@2x.png in Resources */,
 				34FFED2B19B9F60300AF5CD9 /* InfoPlist.strings in Resources */,
 				34FFED7C19C329A800AF5CD9 /* 3chattabopacity@2x.png in Resources */,
+				34CCDE561A5EB3E3000E4B1B /* inlineq7@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,7 +627,7 @@
 				INFOPLIST_FILE = "chatBet/chatBet-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "A5C362FD-3CEC-4325-922B-E7533E6F881A";
+				PROVISIONING_PROFILE = "343d16e4-4f5a-4545-b51c-96d681fef147";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -620,7 +644,7 @@
 				INFOPLIST_FILE = "chatBet/chatBet-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "A5C362FD-3CEC-4325-922B-E7533E6F881A";
+				PROVISIONING_PROFILE = "343d16e4-4f5a-4545-b51c-96d681fef147";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
