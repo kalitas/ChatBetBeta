@@ -81,7 +81,7 @@
     [rightRecognizer setDirection: UISwipeGestureRecognizerDirectionRight];
     [[self view] addGestureRecognizer:rightRecognizer];
     
-    self.inlineQuestions = [NSArray arrayWithObjects:@"inlineq1", @"inlineq2", @"inlineq3",@"inlineq4", @"inlineq5", @"inlineq6", @"inlineq7", nil];
+    self.inlineQuestions = [NSArray arrayWithObjects:@"inlineq3",@"inlineq4", @"inlineq6", @"inlineq7", nil];
     
     self.pregameQuestions = [NSArray arrayWithObjects:@"betCut", @"inlineq5", @"inlineq8", nil];
 }
@@ -202,7 +202,7 @@
     {
         if (gest.direction == UISwipeGestureRecognizerDirectionLeft)
         {
-            if (self.inlineQuestionsIndex == 5)
+            if (self.inlineQuestionsIndex == 3)
             {
                 self.inlineQuestionsIndex = 0;
             }
@@ -215,14 +215,14 @@
         {
             if (self.inlineQuestionsIndex == 0)
             {
-                self.inlineQuestionsIndex = 5;
+                self.inlineQuestionsIndex = 3;
             }
             else
             {
                 self.inlineQuestionsIndex -= 1;
             }
         }
-        [self.betTitleQuestionsNumbers setText:[NSString stringWithFormat:@"%d/6", self.inlineQuestionsIndex + 1]];
+        [self.betTitleQuestionsNumbers setText:[NSString stringWithFormat:@"%d/4", self.inlineQuestionsIndex + 1]];
         NSString *imageName = [self.inlineQuestions objectAtIndex:self.inlineQuestionsIndex];
         [self.buttomImage setImage:[UIImage imageNamed:imageName]];
     }
@@ -325,10 +325,10 @@
     else
     {
         [self.betTitleQuestions setText:@"IN PLAY QUESTIONS"];
-        [self.buttomImage setImage:[UIImage imageNamed:@"inlineq1"]];
+        [self.buttomImage setImage:[UIImage imageNamed:@"inlineq3"]];
         self.buttonsView.hidden = NO;
         self.betTitleQuestionsNumbers.hidden = NO;
-        [self.betTitleQuestionsNumbers setText:[NSString stringWithFormat:@"1/6"]];
+        [self.betTitleQuestionsNumbers setText:[NSString stringWithFormat:@"1/4"]];
         
     }
 }
